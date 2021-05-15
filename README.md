@@ -1,5 +1,7 @@
 # MovieGame
 
+Currently following along with a Phoenix tutorial here: https://www.ludu.co/course/discover-elixir-phoenix/ecto but adding my own twist on it in the hopes that I'll be able to use what I learn to turn this into a web app Movie Game. 
+
 To start your Phoenix server:
 
   * Install dependencies with `mix deps.get`

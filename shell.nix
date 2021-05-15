@@ -6,7 +6,7 @@ let
   inherit (lib) optional optionals;
 
   # Define specific Erlang AND Elixir verision to install
-  elixir = beam.packages.erlangR22.elixir_1_10;
+  elixir = beam.packages.erlangR23.elixir_1_11;
   nodejs = nodejs-14_x;
 in
 

@@ -1,0 +1,11 @@
+<div class="card login">
+  <h1>Log in to play the Movie Game</h1>
+
+  <form>
+    <input placeholder="Usernname">
+    <input placeholder="Password">
+
+    <button type="submit" class="login">Log In</button>
+  </form>
+
+</div>

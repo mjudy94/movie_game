@@ -1,38 +1,35 @@
-<section class="phx-hero">
-  <h1><%= gettext "Welcome to %{name}!", name: "Phoenix" %></h1>
-  <p>Peace of mind from prototype to production</p>
-</section>
+<div class="taglinne">
+  <h1>Welcome to the Movie Game</h1>
+  <h2>A web based movie game built in Elixir + Phoenix<h2>
+</div>
 
-<section class="row">
-  <article class="column">
-    <h2>Resources</h2>
-    <ul>
-      <li>
-        <a href="https://hexdocs.pm/phoenix/overview.html">Guides &amp; Docs</a>
-      </li>
-      <li>
-        <a href="https://github.com/phoenixframework/phoenix">Source</a>
-      </li>
-      <li>
-        <a href="https://github.com/phoenixframework/phoenix/blob/v1.5/CHANGELOG.md">v1.5 Changelog</a>
-      </li>
-    </ul>
-  </article>
-  <article class="column">
-    <h2>Help</h2>
-    <ul>
-      <li>
-        <a href="https://elixirforum.com/c/phoenix-forum">Forum</a>
-      </li>
-      <li>
-        <a href="https://webchat.freenode.net/?channels=elixir-lang">#elixir-lang on Freenode IRC</a>
-      </li>
-      <li>
-        <a href="https://twitter.com/elixirphoenix">Twitter @elixirphoenix</a>
-      </li>
-      <li>
-        <a href="https://elixir-slackin.herokuapp.com/">Elixir on Slack</a>
-      </li>
-    </ul>
-  </article>
-</section>
+<div class="action-boxes">
+
+  <div class="card login">
+    <form>
+      <input placeholder="Username">
+      <input placeholder="Password">
+
+      <button type="submit" class="login">Log In</button>
+    </form>
+  </div>
+
+  <div class="card signup">
+    <h5>
+      <strong>
+        First time playing?
+      </strong>
+
+      Sign up!
+    </h5>
+
+    <form>
+      <input placeholder="Email">
+      <input placeholder="Username">
+      <input placeholder="Password">
+
+      <button type="submit" class="signup">Sign Up</button>
+    </form>
+  </div>
+
+</div>
